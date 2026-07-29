@@ -44,6 +44,14 @@ Rights retrofitted after harm are rights in name only. The whole method is to mo
 ## Use and limits
 This is a design and review aid, not legal advice. Its findings reflect only the information provided and do not certify compliance with any law, regulation, or standard. Treat a clean scorecard as a prompt for human judgment, not a guarantee.
 
----
+## About this skill
 
+This skill operationalizes the **rights-by-design** framework from the book
+*Constitutional Democracy in the Algorithmic Age: A Practical Framework for Preserving Citizen Rights* by **Rani Yadav-Ranjan** (Springer, 2026).
+
+The book provides the full legal and governance foundation — spanning algorithmic decision-making, surveillance, biometrics, digital identity, discrimination, and emerging AI regulation — that this skill distills into a fast, repeatable design-stage review.
+
+📖 **Learn more / pre-order:** https://link.springer.com/book/9783032346032
+
+*Author: Rani Yadav-Ranjan — AI governance leader (25+ yrs, 18+ patents), Adjunct Professor at Southwestern Law School, and contributor to NIST's Generative AI working group.*
 *Based on the rights-by-design framework in Rani Yadav-Ranjan's* Constitutional Democracy in the Algorithmic Age *(Springer Nature, 2026). More at yadav-ranjan.com.*
