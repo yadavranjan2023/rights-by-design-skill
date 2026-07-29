@@ -1,6 +1,6 @@
 ---
 name: rights-by-design
-description: Assess or design an AI system for citizen rights at the design stage: privacy, due process, equal protection, contestability, accountability. Produces a rights-by-design scorecard and fixes.
+description: "Assess or design an AI system for citizen rights at the design stage: privacy, due process, equal protection, contestability, accountability. Produces a rights-by-design scorecard and fixes."
 ---
 
 # Rights by Design: AI Governance Review
