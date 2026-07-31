@@ -1,0 +1,18 @@
+{
+  "name": "rights-by-design",
+  "version": "1.0.0",
+  "description": "Assess or design an AI system for citizen rights at the design stage: privacy, due process, equal protection, contestability, and accountability. Produces a rights-by-design scorecard and concrete fixes.",
+  "author": {
+    "name": "Rani Yadav-Ranjan"
+  },
+  "homepage": "https://yadav-ranjan.com",
+  "license": "MIT",
+  "keywords": [
+    "ai-governance",
+    "rights-by-design",
+    "responsible-ai",
+    "privacy",
+    "due-process",
+    "algorithmic-accountability"
+  ]
+}
