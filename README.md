@@ -90,19 +90,37 @@ Suggested conversation starters:
 
 ## Repository structure
 
-```text
+Repository structure
 rights-by-design-skill/
-├── SKILL.md
 ├── README.md
+├── SKILL.md
 ├── chatgpt/
-│   └── INSTRUCTIONS.md
+│   ├── INSTRUCTIONS.md
+│   ├── CONFIGURATION.md
+│   ├── CONVERSATION_STARTERS.md
+│   └── KNOWLEDGE_GUIDE.md
+├── knowledge/
+│   ├── methodology.md
+│   ├── glossary.md
+│   ├── worked-examples.md
+│   └── sector-modules/
+│       ├── employment.md
+│       ├── lending.md
+│       ├── healthcare.md
+│       └── government.md
 ├── sector-modules/
 │   ├── telecommunications.md
 │   ├── defense-national-security.md
 │   └── nasa-space-systems.md
-└── evals/
-    └── sector-test-cases.md
-```
+├── evals/
+│   ├── test-cases.md
+│   ├── expected-findings.md
+│   ├── regression-checklist.md
+│   └── sector-test-cases.md
+└── examples/
+    ├── resume-screening-review.md
+    ├── lending-review.md
+    └── benefits-eligibility-review.md
 
 ## Limits
 
