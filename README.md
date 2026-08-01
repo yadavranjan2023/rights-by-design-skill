@@ -43,12 +43,71 @@ I ran it on an ordinary resume-screening AI. In one pass it flagged: privacy (pa
 
 That's the whole point. The failures were foreseeable. The tool just asks the questions your process forgot to.
 
-One honest limit
+## Version 2.0
 
-This is a design and review aid, not legal advice, and it doesn't certify compliance with any law. A clean scorecard is a prompt for human judgment, not a guarantee. Use it to catch what you'd otherwise miss, then bring your own people in.
+Version 2.0 adds sector overlays for:
+
+- Telecommunications and communications infrastructure
+- Department of Defense and national-security systems
+- NASA and civil or commercial space systems
+- Mission-critical and critical-infrastructure environments
+
+The five universal dimensions remain:
+
+1. Privacy and cognitive liberty
+2. Due process and algorithmic dignity
+3. Equal protection and nondiscrimination
+4. Transparency and contestability
+5. Accountability and democratic control
+
+## Use in any AI assistant
+
+1. Open `SKILL.md`.
+2. Copy the complete file.
+3. Paste it into a new conversation as the governing instructions.
+4. Provide a system description, PRD, model card, procurement package, operational concept, architecture, or mission profile.
+5. Ask: `Run a Rights by Design review.`
+
+## Use in ChatGPT
+
+For a reusable custom GPT:
+
+1. Create a custom GPT.
+2. Paste `chatgpt/INSTRUCTIONS.md` into the GPT Instructions field.
+3. Upload `SKILL.md` and the files in `sector-modules/` as Knowledge.
+4. Add representative evaluation cases from `evals/`.
+5. Enable web access when current laws, standards, agency policies, or regulations must be verified.
+6. Test in Preview before sharing.
+
+Suggested conversation starters:
+
+- Review this AI system using Rights by Design.
+- Turn this product concept into testable rights and safety requirements.
+- Assess this telecom AI system and identify deployment blockers.
+- Review this defense AI concept for command, accountability, and civilian-risk gaps.
+- Review this space-system autonomy design for safety and mission-assurance gaps.
+- Compare these two vendors using Rights by Design.
+
+## Repository structure
+
+```text
+rights-by-design-skill/
+├── SKILL.md
+├── README.md
+├── chatgpt/
+│   └── INSTRUCTIONS.md
+├── sector-modules/
+│   ├── telecommunications.md
+│   ├── defense-national-security.md
+│   └── nasa-space-systems.md
+└── evals/
+    └── sector-test-cases.md
+```
+
+## Limits
+
+Rights by Design is a design and governance aid. It does not provide legal advice or certify compliance. It is not a substitute for agency, command, legal, privacy, cybersecurity, safety, engineering, acquisition, accessibility, civil-rights, weapons, airworthiness, flight-readiness, or mission-assurance review.
 
 Run it now (free): github.com/yadavranjan2023/rights-by-design-skill
 
 Rights by Design is the practical front end of my book, Constitutional Democracy in the Algorithmic Age: A Practical Framework for Preserving Citizen Rights (Springer, 2026), where the full framework and the law under it live. Pre-order: link.springer.com/book/9783032346032
-
-Run it on something you're building and tell me what it caught. That feedback is how it gets better.
