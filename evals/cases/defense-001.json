@@ -1,0 +1,12 @@
+{
+  "id": "defense-001",
+  "title": "Sensor-fusion targeting-support assistant",
+  "system_description": "An AI fuses multi-sensor feeds and recommends candidate targets for operator attention with a confidence label. An operator approves recommendations through a single confirmation screen. The system supports human decisions and does not itself apply force.",
+  "expected": {
+    "impact_tier": "high",
+    "sector_overlays_include": ["defense"],
+    "dimensions_not_met": ["Due process and algorithmic dignity", "Transparency and contestability", "Accountability and democratic control"],
+    "bottom_line": "not_ready",
+    "must_mention": ["meaningful human control", "provenance", "uncertainty", "reconstruction", "automation bias"]
+  }
+}

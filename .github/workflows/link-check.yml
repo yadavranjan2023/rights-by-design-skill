@@ -1,0 +1,8 @@
+name: Link Check
+on: [push]
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Placeholder for link checker"

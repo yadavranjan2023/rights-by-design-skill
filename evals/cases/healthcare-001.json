@@ -1,0 +1,12 @@
+{
+  "id": "healthcare-001",
+  "title": "Clinical prior-authorization and care-prioritization model",
+  "system_description": "A payer-provider uses AI to auto-adjudicate prior-authorization requests (low-approval-probability requests are auto-denied or pended) and to stratify patients into risk tiers that route scarce nursing resources. Clinicians see a tier and a denial probability. Denials issue a standard policy-criteria letter. Part of the risk model was trained on prior healthcare spend as a proxy for need.",
+  "expected": {
+    "impact_tier": "high",
+    "sector_overlays_include": ["healthcare"],
+    "dimensions_not_met": ["Due process and algorithmic dignity", "Equal protection and nondiscrimination", "Transparency and contestability"],
+    "bottom_line": "not_ready",
+    "must_mention": ["cost", "proxy", "subgroup", "clinician", "override", "appeal"]
+  }
+}

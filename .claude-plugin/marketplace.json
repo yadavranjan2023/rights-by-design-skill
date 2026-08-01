@@ -4,22 +4,24 @@
     "name": "Rani Yadav-Ranjan"
   },
   "metadata": {
-    "description": "Rights-by-design AI governance tools for Claude Cowork and Claude Code.",
-    "version": "1.0.0"
+    "description": "AI Constitutional Engineering — the Rights by Design framework for Claude Cowork and Claude Code.",
+    "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "rights-by-design",
       "source": "./plugins/rights-by-design",
-      "description": "Assess or design an AI system for citizen rights at the design stage: privacy, due process, equal protection, contestability, and accountability. Produces a rights-by-design scorecard and concrete fixes.",
-      "version": "1.0.0",
+      "description": "AI Constitutional Engineering Framework. Assess or design any AI system for citizen rights at the design stage — privacy, due process, equal protection, contestability, accountability, and mission-critical safeguards — with sector modules for government, law enforcement, healthcare, finance and insurance, employment, education, telecom, defense, space, critical infrastructure, energy, transportation, robotics, manufacturing, biometrics, and smart cities. Produces a rights-by-design scorecard, sector-specific controls, and fixes.",
+      "version": "2.0.0",
       "author": {
         "name": "Rani Yadav-Ranjan"
       },
       "keywords": [
         "ai-governance",
         "rights-by-design",
-        "responsible-ai"
+        "constitutional-engineering",
+        "responsible-ai",
+        "algorithmic-accountability"
       ]
     }
   ]

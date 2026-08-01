@@ -1,0 +1,12 @@
+{
+  "id": "telecom-001",
+  "title": "Automated fraud suspension of mobile accounts",
+  "system_description": "A mobile carrier uses AI to suspend accounts suspected of SIM-swap fraud. Service is cut immediately on a high score. Customers receive a generic fraud notice. The first human review occurs within five business days.",
+  "expected": {
+    "impact_tier": "high",
+    "sector_overlays_include": ["telecommunications"],
+    "dimensions_not_met": ["Due process and algorithmic dignity", "Transparency and contestability"],
+    "bottom_line": "not_ready",
+    "must_mention": ["emergency", "restoration", "human review", "disparate", "reason"]
+  }
+}

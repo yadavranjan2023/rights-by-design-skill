@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Rights by Design Assessment",
+  "type": "object",
+  "required": [
+    "framework_version",
+    "system_summary",
+    "impact_tier",
+    "dimensions",
+    "bottom_line"
+  ],
+  "properties": {
+    "framework_version": {
+      "type": "string"
+    },
+    "system_summary": {
+      "type": "string"
+    },
+    "impact_tier": {
+      "enum": [
+        "high",
+        "moderate",
+        "limited",
+        "undetermined"
+      ]
+    },
+    "sector_overlays": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dimensions": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "status",
+          "finding"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "met",
+              "partial",
+              "gap",
+              "not_enough_information",
+              "not_applicable"
+            ]
+          },
+          "finding": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "safeguard": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "requirement",
+          "owner",
+          "evidence",
+          "deployment_blocker"
+        ],
+        "properties": {
+          "requirement": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "acceptance_test": {
+            "type": "string"
+          },
+          "deployment_blocker": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bottom_line": {
+      "enum": [
+        "ready",
+        "conditional",
+        "not_ready",
+        "insufficient_information"
+      ]
+    }
+  }
+}

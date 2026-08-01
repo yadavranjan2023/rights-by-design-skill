@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Rights by Design — AI Constitutional Engineering Framework"
+message: "If you use this framework, please cite the book it operationalizes (preferred-citation below)."
+type: software
+authors:
+  - family-names: Yadav-Ranjan
+    given-names: Rani
+version: 2.0.0
+license: MIT
+repository-code: "https://github.com/yadavranjan2023/rights-by-design-skill"
+url: "https://yadav-ranjan.com"
+keywords:
+  - AI governance
+  - rights by design
+  - constitutional engineering
+  - responsible AI
+  - algorithmic accountability
+preferred-citation:
+  type: book
+  title: "Constitutional Democracy in the Algorithmic Age: A Practical Framework for Preserving Citizen Rights"
+  authors:
+    - family-names: Yadav-Ranjan
+      given-names: Rani
+  publisher:
+    name: "Springer Nature"
+  year: 2026
+  url: "https://link.springer.com/book/9783032346032"

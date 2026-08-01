@@ -1,0 +1,485 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": ".github/FUNDING.yml",
+      "bytes": 77,
+      "sha256": "de15372d0ece69a38105cca0da620cfa822188124ff09f8541c9436a32b92a56"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "bytes": 84,
+      "sha256": "85fecb6ab49e63e1e10ea32948029dfd67c65b4171e36ee7da7ab1d9b8e448c5"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 105,
+      "sha256": "b976d6be358294d67a85e28edfdd7b65534449f080193bd0f70939c2ce2cad70"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 119,
+      "sha256": "8912c495e7a2514170ad43170ceda3e1c0a48402c92bd096215c4b6ec6a31a03"
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "bytes": 355,
+      "sha256": "924e8a7bb6cc8dec7ede6ef6114cdcf2a3061db607d3d4b68a77925b56fd6d85"
+    },
+    {
+      "path": ".github/workflows/link-check.yml",
+      "bytes": 164,
+      "sha256": "6a730f7d01365c810d90b87e1381a19efad82d8e5714d15dfc731d561bdd8612"
+    },
+    {
+      "path": ".github/workflows/markdown-lint.yml",
+      "bytes": 219,
+      "sha256": "8faa228975236dc1b925ebe341eb733c2412b77f3ea2136a3b78f2b09a7f738b"
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "bytes": 249,
+      "sha256": "6453247f63c5fcc627922bbc69ac337f1339bd064b2d334105d668ef6d7c4e1f"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 1084,
+      "sha256": "7128284e5a297ef1d5f2d80aa917fe61fa1e94fadafb6a802aa18b96da84feda"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 153,
+      "sha256": "e8a10fc71baad956c2b6840c6896201d805120698c92ad8af304416477ae8819"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 174,
+      "sha256": "ef6a5017a9e6493d58965c7aeb82e3337fd6189f9f6458f317091513880e82df"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 131,
+      "sha256": "24ff6d1316542f202a733393bd074c58bbb50b3131d6616292dff630bf8b6005"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 249,
+      "sha256": "55973e9eff113137ccd491d1081dcd29278c2207f714fa8d36e8494fd03b240e"
+    },
+    {
+      "path": "FAQ.md",
+      "bytes": 131,
+      "sha256": "a9a0b7ffde0a1668d5c34ad575154cd551622059260b5bcab072be2f66bf0bc8"
+    },
+    {
+      "path": "FRAMEWORK_SPEC.md",
+      "bytes": 6821,
+      "sha256": "220b2383dcfd638d3edcd60230c4f926183592a720e78684e4d66af176b0adbe"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "bytes": 127,
+      "sha256": "aefa385b6d1cb85b79596911ee8c697dd553b3fadf690db0a91787836a949068"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 130,
+      "sha256": "696593ad927cc38852853780b2835f23f4a062d38cc62e74aa49fb9a64ed3183"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3989,
+      "sha256": "0c53a2bb67cca5ab15ea674173d8b4e37ae435d94c5b5a64c3e96d2c43c24fd4"
+    },
+    {
+      "path": "RELEASE_CHECKLIST.md",
+      "bytes": 118,
+      "sha256": "e655e222ea5f29e1ff2a967f0a0b936470d7df50446db70026b0fe6da124d431"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 195,
+      "sha256": "712f962e6cbfbd19012884d77891b3f50fa3af691664a0e02babed824fa08a56"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 168,
+      "sha256": "14573c61a17dc9c72b154dec83255f64183543b3f0b16735eb6864087aff3180"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10822,
+      "sha256": "cdf4ee0338969827ecd629f9c9df035b097a1fa8e526eb6633df612d762ddd6b"
+    },
+    {
+      "path": "VERSION.md",
+      "bytes": 86,
+      "sha256": "130e4004fc5e732f57338573d0ab1a5e9fd3f6d911b78028619a76d69a7a1e0f"
+    },
+    {
+      "path": "assets/architecture.png",
+      "bytes": 32193,
+      "sha256": "0655e9ad49dc1ddf1b32839ff69a86766df02bf37fe0909397c5aaaea87066b6"
+    },
+    {
+      "path": "assets/diagrams/architecture.mmd",
+      "bytes": 227,
+      "sha256": "7dd32447689565aee40193d36ccff39fa1b78a3924cc6be91f7deb7a9963a7ef"
+    },
+    {
+      "path": "assets/diagrams/workflow.mmd",
+      "bytes": 264,
+      "sha256": "5fe85e3ef7e029e823c9a95af08478b312da92f1410a89f162ffad595bb9115f"
+    },
+    {
+      "path": "assets/rights-by-design-logo.png",
+      "bytes": 17954,
+      "sha256": "c66485fb18054c29c792390150ee58c42d2c477a19943f6b1f229ca9a0cdb29f"
+    },
+    {
+      "path": "assets/scorecard.png",
+      "bytes": 30427,
+      "sha256": "992e983b6cf84fe90290d0db9f884d4cfd31be4467e09073c6d4805aadf03d6c"
+    },
+    {
+      "path": "assets/workflow.png",
+      "bytes": 33302,
+      "sha256": "bf32cd8c9ce9a580dae875b4bd5543a5953dbd8e15aff0e71cc8b5ce6963093c"
+    },
+    {
+      "path": "book/about-the-book.md",
+      "bytes": 398,
+      "sha256": "caf8ce363b65b756b0fd9a55474531cb058e5b2fe27bf6baf7a1df089df60499"
+    },
+    {
+      "path": "book/citation.md",
+      "bytes": 218,
+      "sha256": "f2f94207edeb420bb4113bd2d3d57731ef4bef62cadab23f3b11dbe17c43640e"
+    },
+    {
+      "path": "book/errata.md",
+      "bytes": 278,
+      "sha256": "3e72a5f2fd97676a99c397b02a49db043088ba3be9208abd56644260fb90e86b"
+    },
+    {
+      "path": "chatgpt/CONFIGURATION.md",
+      "bytes": 5489,
+      "sha256": "c230329b7eb62af026f35e39758947da949300da110fe307be163820f2f9f59d"
+    },
+    {
+      "path": "chatgpt/CONVERSATION_STARTERS.md",
+      "bytes": 3175,
+      "sha256": "4588048e70dc90ba3b70d4145488a6d47f1ae1da831422070f9b3a18530df784"
+    },
+    {
+      "path": "chatgpt/INSTRUCTIONS.md",
+      "bytes": 1935,
+      "sha256": "9d281ef19e6e36043124840de8ed1a2a18de1d772f004c0ad31264a02a4b3a85"
+    },
+    {
+      "path": "chatgpt/KNOWLEDGE_GUIDE.md",
+      "bytes": 3680,
+      "sha256": "21355bf540ba8a94c6e01feb979e7118298e1004cb4a39bb7a1de1617fbb036e"
+    },
+    {
+      "path": "docs/design-principles.md",
+      "bytes": 851,
+      "sha256": "8ae874914f884dc7dedeaa537384f25e4e2fb4e2e9effbe75bf863fa612cc31f"
+    },
+    {
+      "path": "docs/faq.md",
+      "bytes": 581,
+      "sha256": "64981325ad61cebed397e31e6739515d550f6541ab5a4e81e2a3c08302d364cd"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "bytes": 833,
+      "sha256": "8af25a5305d5f784c99dd3ece8853d0164538a73bad493ad64447cf8f9bc85f3"
+    },
+    {
+      "path": "docs/installation.md",
+      "bytes": 650,
+      "sha256": "73b39b86d6cc6aa68d42564b2e2cc71c922a1333b1b8460a78f94347b14d00b6"
+    },
+    {
+      "path": "docs/quickstart.md",
+      "bytes": 686,
+      "sha256": "c1fb9d0e3b24b7bf0214a407c512b4c04500eb22f54a41d8021dde8c028e8a83"
+    },
+    {
+      "path": "docs/rights-framework.md",
+      "bytes": 820,
+      "sha256": "bda4cd04da4fa36b87fa5892b7282cc3a076c2923b3825aad8139cb050a78406"
+    },
+    {
+      "path": "docs/sector-overview.md",
+      "bytes": 1590,
+      "sha256": "cea71db23b0d6d0d3e2ce223bf6274abc2f83ddcfc443e21fc694b2a1a102982"
+    },
+    {
+      "path": "evals/acceptance-criteria.md",
+      "bytes": 535,
+      "sha256": "954703d2b7b1f877ede30c4e7085db1ce6dec8441ad9fd966de6d829971ed780"
+    },
+    {
+      "path": "evals/benchmark-results.md",
+      "bytes": 375,
+      "sha256": "72ca7e81ec7b75d1d3f79b1ddfd92dd1ba37c9526fd656da804790b327e6d647"
+    },
+    {
+      "path": "evals/edge-cases.md",
+      "bytes": 631,
+      "sha256": "30384f731b62be1c9e61a64fc1f18a1a2a219356d80b358b2ea11585b0269fbf"
+    },
+    {
+      "path": "evals/expected-findings.md",
+      "bytes": 3332,
+      "sha256": "411dbedb8ca4bd7b6bc4a0b0afe3af0059c3fc1621465c46d9673b278dd55478"
+    },
+    {
+      "path": "evals/hallucination-tests.md",
+      "bytes": 348,
+      "sha256": "5cc54c2a51ac62a15f9029df558469e0a59ff2d6822c6991c36ff664d2109042"
+    },
+    {
+      "path": "evals/prompt-library.md",
+      "bytes": 625,
+      "sha256": "d969bbdf37242310b1672483d3b66831bdf454cecf12b8cca4a489ce242b296e"
+    },
+    {
+      "path": "evals/regression-checklist.md",
+      "bytes": 3190,
+      "sha256": "0fbb91bb0cbc4b7c1f325fba8e4d18913d1a80bfb917568b0d70a5cb3335e797"
+    },
+    {
+      "path": "evals/scoring-guide.md",
+      "bytes": 757,
+      "sha256": "33abb1c2c9f9427b60bb5635aff40c082ea4cf2f6b7917811140a7e1b395b5c7"
+    },
+    {
+      "path": "evals/sector-test-cases.md",
+      "bytes": 3258,
+      "sha256": "22a8c412130ae63e833a7eb3d2c0d06f864c849d287299349eddb5d666fa856f"
+    },
+    {
+      "path": "evals/test-cases.md",
+      "bytes": 5085,
+      "sha256": "040266501c0febf8505dd4f458ad7a3b48c5545c9371999f3173752e78fe5e0f"
+    },
+    {
+      "path": "examples/autonomous-vehicles-review.md",
+      "bytes": 2120,
+      "sha256": "0417f2f9b175fea7a6250a964cc0154d92e6e572eb0834cc78189c0dec9c75f8"
+    },
+    {
+      "path": "examples/benefits-eligibility-review.md",
+      "bytes": 6167,
+      "sha256": "75fbaaadc73711250f487748a01576cbdbf6ebec6b81cfa1547db994c86b1379"
+    },
+    {
+      "path": "examples/defense-review.md",
+      "bytes": 2146,
+      "sha256": "4893d10e8b3a5f348f7a3ed9230811c3a915dd5734a8f35b039f0490c69b4294"
+    },
+    {
+      "path": "examples/education-review.md",
+      "bytes": 2092,
+      "sha256": "6eeeecb416ba7a316696a644e9bbc7037f947cf44b5d7a4451583229f3764e4a"
+    },
+    {
+      "path": "examples/insurance-review.md",
+      "bytes": 2114,
+      "sha256": "783b0a84151cf5f9f6f7f6343da1a55118e9cb2712f51e34cf86c9a6ce840559"
+    },
+    {
+      "path": "examples/lending-review.md",
+      "bytes": 5247,
+      "sha256": "a193f237d55dc6498f925b7fcaf1e318df005b4f3f93f898f3f81760264dcfe3"
+    },
+    {
+      "path": "examples/nasa-review.md",
+      "bytes": 2153,
+      "sha256": "6684ac8a834054276bd6271fe71f9eb2c594e3d41e544a2e51d7ca6924e38a17"
+    },
+    {
+      "path": "examples/policing-review.md",
+      "bytes": 2115,
+      "sha256": "3cd03f7e6e06be926fa5897be31f7a86be1b7f2b89205f9db8128f9c0868bfa2"
+    },
+    {
+      "path": "examples/resume-screening-review.md",
+      "bytes": 6416,
+      "sha256": "9a45f79f1c5a829f767bdee69370d6bac986335b44ecbced318eb8072cdf26c0"
+    },
+    {
+      "path": "examples/telecom-review.md",
+      "bytes": 2171,
+      "sha256": "3721a2d3dbe903b86d10497b00c59bdeaadb250d693a855f38a6d60e7ffa6481"
+    },
+    {
+      "path": "knowledge/glossary.md",
+      "bytes": 5362,
+      "sha256": "cfb2342ad39ef131fd1cd1aaf43bc6dc1f7241005dab0f1476cbea52c5622b47"
+    },
+    {
+      "path": "knowledge/methodology.md",
+      "bytes": 6919,
+      "sha256": "a74384b583182ad8962f4902594c8528f967339246c44689343599a81aa2c3b3"
+    },
+    {
+      "path": "knowledge/sector-modules/biometrics.md",
+      "bytes": 1288,
+      "sha256": "40b647371ef29ca8b0fb08c1980078faa9677c49f8a23f89e34e354d7e63d34c"
+    },
+    {
+      "path": "knowledge/sector-modules/critical-infrastructure.md",
+      "bytes": 1268,
+      "sha256": "3cf588d578f6df49d38b72475f839b1520fb411d23e97285d960e2bd4a9b0f82"
+    },
+    {
+      "path": "knowledge/sector-modules/education.md",
+      "bytes": 1406,
+      "sha256": "b45ff00872b6c3e40a582030751e8c4fb304efcde1ad1e3d58d547ef350dd275"
+    },
+    {
+      "path": "knowledge/sector-modules/employment.md",
+      "bytes": 3104,
+      "sha256": "3a3726c1ca0464daf7fdf8f1b7ebe7e0e17558be11d48983325eb7e44dab24e2"
+    },
+    {
+      "path": "knowledge/sector-modules/energy.md",
+      "bytes": 1312,
+      "sha256": "9c059a84795feef7be0ee252d01a4d74b0bec7eaec348771d4883aacbcae9539"
+    },
+    {
+      "path": "knowledge/sector-modules/government.md",
+      "bytes": 3457,
+      "sha256": "bad16e89f52c955e0c46208a6b1a30fc9d0f81381bd3d1ba0173bc088829340a"
+    },
+    {
+      "path": "knowledge/sector-modules/healthcare.md",
+      "bytes": 3073,
+      "sha256": "e910e49146f3f2f5bf20cbb7d2b309a16681c4dc03750afde89f15628c1adbbf"
+    },
+    {
+      "path": "knowledge/sector-modules/insurance.md",
+      "bytes": 1290,
+      "sha256": "12afe6557c70ffa157016007b7c309bd1c90a6f5d22c9fe555aae5fea260bbfe"
+    },
+    {
+      "path": "knowledge/sector-modules/law-enforcement.md",
+      "bytes": 1395,
+      "sha256": "5629f43a9713c403890846e267f59c5adc0c2cda89f643988895613bfa9d3d69"
+    },
+    {
+      "path": "knowledge/sector-modules/lending.md",
+      "bytes": 2840,
+      "sha256": "a71da35920dcd5e11f33ba939eb962c4d902db4714c84c9746e3c37ad041a683"
+    },
+    {
+      "path": "knowledge/sector-modules/manufacturing.md",
+      "bytes": 1293,
+      "sha256": "c6ae5991acea50b855894c46e79a802dba6c8548c30100a6f6f6a1bf50908685"
+    },
+    {
+      "path": "knowledge/sector-modules/robotics.md",
+      "bytes": 1248,
+      "sha256": "476b2482cb3dd8dc4e34683c878e84367625384ca694525e2b23870574349452"
+    },
+    {
+      "path": "knowledge/sector-modules/smart-cities.md",
+      "bytes": 1332,
+      "sha256": "82e734736584a9e8ecd9537e705cbc454ccc57001fb79b1d9600748fde542244"
+    },
+    {
+      "path": "knowledge/sector-modules/transportation.md",
+      "bytes": 1315,
+      "sha256": "188b649b37bcf6e49db351c53eb124d851f419e043a0f65dbf8d7ca0ceeeee8d"
+    },
+    {
+      "path": "knowledge/worked-examples.md",
+      "bytes": 4520,
+      "sha256": "5ff4bd1084b33d1a5bfa99f59fd0fc3b7894fe6eb5669dd04ca3700ff7bd7fd3"
+    },
+    {
+      "path": "research/ai-rmf-crosswalk.md",
+      "bytes": 1487,
+      "sha256": "1b0f30e7d671cde5da8d0eaa79a182b839c51742c469b77396016dc2a2c8a103"
+    },
+    {
+      "path": "research/assessment-schema.json",
+      "bytes": 2266,
+      "sha256": "9f2b686573eb9213c06c51aa8787d42e43c81feb833fa7fe6f6d570e606d0a5f"
+    },
+    {
+      "path": "research/bibliography.md",
+      "bytes": 719,
+      "sha256": "9470d782c4e9409e77dc664ef2a62547f04d3e2ab16eca357f4d01875563f3d2"
+    },
+    {
+      "path": "research/eu-ai-act-crosswalk.md",
+      "bytes": 1572,
+      "sha256": "34e0957b83b7fcb52aa72aacb3e67866a52ed8b443e02fa16b26e89c4a91e46b"
+    },
+    {
+      "path": "research/iso42001-crosswalk.md",
+      "bytes": 1236,
+      "sha256": "7c47a020b06f4ebb4fed102c3743c79fce3d4f5440f246f353d7571cf85615b4"
+    },
+    {
+      "path": "research/references.md",
+      "bytes": 607,
+      "sha256": "afbbcc1ce4edbb95ed9316bba0b96d16cf29778165ace6042ca7cf66cde7d7e0"
+    },
+    {
+      "path": "research/standards-crosswalk.md",
+      "bytes": 1437,
+      "sha256": "f762df82481b48e642fa8d2f4f87db81ba90a3c01e518a6bca85932924be9cfa"
+    },
+    {
+      "path": "sector-modules/defense-national-security.md",
+      "bytes": 3301,
+      "sha256": "5b976138141e85f0894288f2cef39243d88b981c33a99fd1d33b05f264bbb478"
+    },
+    {
+      "path": "sector-modules/nasa-space-systems.md",
+      "bytes": 3273,
+      "sha256": "549fa03eda69fb86f1a9317b9e22556f2ec811cf8442707a1c49a1f4d939a0c2"
+    },
+    {
+      "path": "sector-modules/telecommunications.md",
+      "bytes": 2901,
+      "sha256": "aa7d660fea76ae4b2120f9e68f66cfb8682674f7caee1f64aebd016b7b3307f2"
+    },
+    {
+      "path": "templates/ai-system-review.md",
+      "bytes": 794,
+      "sha256": "7e72c72d0ce697ab55fc60a9b7918ed2606bbfce53b307057461de1ee5991494"
+    },
+    {
+      "path": "templates/board-report.md",
+      "bytes": 377,
+      "sha256": "c24c0da3a7360a05c71537128995a0d537001616486845965da0abd0e3adf98d"
+    },
+    {
+      "path": "templates/deployment-checklist.md",
+      "bytes": 682,
+      "sha256": "87347e94a9f1d248c5a33b638d7beb9879dea69777f7b964547d844bbb81d2fc"
+    },
+    {
+      "path": "templates/executive-summary.md",
+      "bytes": 272,
+      "sha256": "bdea0590f67a1dc66bcb95509467735508a7470510ba00fbadfc7277e1a7d4ad"
+    },
+    {
+      "path": "templates/model-card-review.md",
+      "bytes": 340,
+      "sha256": "c8a8dfbf36c4327dbd6d9fe70665c98143ddc9967335a372db48cf34c75b5154"
+    },
+    {
+      "path": "templates/procurement-checklist.md",
+      "bytes": 875,
+      "sha256": "e640f921708d65e582353011d8315b5ef27fee5688c08c165f5636a181169f33"
+    }
+  ]
+}

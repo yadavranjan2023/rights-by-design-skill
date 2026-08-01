@@ -1,7 +1,7 @@
 {
   "name": "rights-by-design",
-  "version": "1.0.0",
-  "description": "Assess or design an AI system for citizen rights at the design stage: privacy, due process, equal protection, contestability, and accountability. Produces a rights-by-design scorecard and concrete fixes.",
+  "version": "2.0.0",
+  "description": "AI Constitutional Engineering Framework. Assess or design any AI system for citizen rights at the design stage — privacy, due process, equal protection, contestability, accountability, and mission-critical safeguards — with sector modules across government, justice, healthcare, finance, employment, education, telecom, defense, space, and critical infrastructure. Produces a rights-by-design scorecard, sector-specific controls, and fixes.",
   "author": {
     "name": "Rani Yadav-Ranjan"
   },
@@ -10,6 +10,7 @@
   "keywords": [
     "ai-governance",
     "rights-by-design",
+    "constitutional-engineering",
     "responsible-ai",
     "privacy",
     "due-process",

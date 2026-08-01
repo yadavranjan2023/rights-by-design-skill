@@ -1,131 +1,402 @@
-# rights-by-design-skill
-A rights-by-design AI governance review skill for Claude.
-How to Run a Constitutional-Rights Check on Any AI System in 5 Minutes
+# Rights by Design
 
-I built Rights by Design so you don't need a law degree or a compliance team to catch the failures before they ship. Here's exactly how to use it.
+## The Open Implementation Framework for Constitutional AI Governance
 
-Most "responsible AI" happens too late. After the model is built. After it's deployed. After someone is harmed and a lawyer gets involved. By then the fix is expensive, narrow, and years overdue.
+**Rights by Design** is an **AI Constitutional Engineering Framework** for designing, evaluating, and governing AI systems **before deployment**.
 
-Rights by Design moves the check to where it's cheap: the design stage. It's free, it's open, and you can run it in the time it takes to read this post. No installation required, no account, no consultant.
+Rather than attempting to retrofit protections after harm occurs, Rights by Design translates constitutional principles, governance requirements, and organizational accountability into **repeatable engineering controls**, **evidence requirements**, and **deployment decisions**.
 
-Here's what it is, why it works, and how to use it.
+The framework combines an invariant core of **five universal rights dimensions** with **sector-specific modules**, enabling consistent AI reviews across government, healthcare, finance, telecommunications, defense, space systems, manufacturing, critical infrastructure, and other industries.
 
-What it actually is: Rights by Design is a skill — a set of expert instructions that turns any capable AI assistant into a rights reviewer. Think of it as a checklist with judgment. You hand it a description of an AI system, and it walks that system through five protections that constitutional democracies are built on: privacy, due process, equal protection, contestability, and accountability. Then it tells you, specifically, where the system fails and what to fix before you ship.
+Rights by Design is intended for:
 
-It's the working core of my book, made runnable. You don't read a framework. You use one.
+- AI Engineers
+- Software Architects
+- Product Managers
+- AI Governance Teams
+- Risk & Compliance
+- Procurement Organizations
+- Public Agencies
+- Executive Leadership
+- Researchers
+- Policymakers
 
-Why run it at the design stage: Because rights retrofitted after harm are rights in name only.
+---
 
-A protection built into a system's architecture is cheap to add and hard to remove. The same protection bolted on after a scandal is expensive, fragile, and always arrives after someone has already paid for its absence. The five minutes you spend running this check is the cheapest insurance you will ever buy against building something that quietly strips people of their rights.
+# Based On
 
-The easy way (anyone, ~5 minutes)
+Rights by Design is based on the framework presented in
 
-You don't need to be technical. If you can copy and paste, you can run it.
+**Rani Yadav-Ranjan**
 
-1. Open the skill file. Go to the repo and open SKILL.md: github.com/yadavranjan2023/rights-by-design-skill
-2. Copy the whole file. Select all of it and copy.
-3. Paste it into a fresh chat with Claude (or another capable AI assistant), as your instructions. This loads the framework.
-4. Describe your system. Paste whatever you have: a product spec, a PRD, a model card, or just a plain-English paragraph — "We're building a tool that scores loan applicants and auto-declines the bottom 40%." The more detail, the sharper the review.
-5. Ask it to run the review. You'll get back four things: the impact tier and why, a five-row scorecard (met, partial, or gap), a prioritized list of fixes to build in before ship, and one honest bottom line on whether it's ready.
-6. Act on the "build in before ship" list. It's ordered hardest-to-retrofit first, so start at the top. That's where the design-stage savings are biggest.
+*Constitutional Democracy in the Algorithmic Age*
 
-That's it. No setup, no cost.
+Springer Nature (2026)
 
-The power-user way (if you live in your tools)
+📖 Book
 
-If you use Claude Code or Cowork, you can add Rights by Design as a skill so it's always on tap. Install it from the repo once, and then you just say "review this system with rights-by-design" whenever you need it — no copy-paste. Setup steps are in the repo's README.
+https://link.springer.com/book/9783032346032
 
-This is the version for teams: wire it into your design-review process so every new system gets the check before launch, the same way you'd run a security or privacy review.
+🌐 Project Website
 
-What you get back (a real example)
+https://yadav-ranjan.com
 
-I ran it on an ordinary resume-screening AI. In one pass it flagged: privacy (partial — inferring age and gender no one disclosed), due process (gap — auto-rejections with no human behind them), equal protection (gap — trained on biased history, never tested), contestability (gap — no appeal that can reverse), and accountability (partial — no named owner). Bottom line: not ready to deploy. Three constitutional rights failing at once, every one of them fixable at the design stage.
+---
 
-That's the whole point. The failures were foreseeable. The tool just asks the questions your process forgot to.
+# Why Rights by Design?
+
+Most AI governance frameworks describe **what** organizations should consider.
+
+Rights by Design focuses on **how** to operationalize governance.
+
+It provides a repeatable methodology that converts constitutional principles into:
+
+- engineering controls
+- deployment criteria
+- governance workflows
+- evidence requirements
+- approval processes
+- monitoring requirements
+- deployment blockers
+
+The framework is designed to support AI systems throughout their lifecycle—from concept and procurement through deployment, operation, model updates, and retirement.
+
+---
+
+# Five Universal Rights Dimensions
+
+Every AI system is evaluated across five foundational dimensions.
+
+1. Privacy & Cognitive Liberty
+
+2. Due Process & Algorithmic Dignity
+
+3. Equal Protection & Nondiscrimination
+
+4. Transparency & Contestability
+
+5. Accountability & Democratic Control
+
+These dimensions remain constant across industries while sector modules introduce domain-specific controls and evaluation criteria.
+
+---
+
+# Supported Platforms
+
+Rights by Design is platform independent.
+
+Current integrations include:
+
+| Platform | Status |
+|-----------|--------|
+| ChatGPT | ✅ Supported |
+| Claude | ✅ Supported |
+| GitHub | ✅ Documentation |
+| JSON/YAML Assessments | ✅ Supported |
+| VS Code Extension | 🚧 Planned |
+| GitHub Action | 🚧 Planned |
+| rights-review CLI | 🚧 In Development |
+| REST API | 🚧 Planned |
+
+---
+
+# ChatGPT Integration
+
+ChatGPT resources are located in:
+
+```text
+integrations/chatgpt/
+```
+
+Contents
+
+```text
+CONFIGURATION.md
+
+CONVERSATION_STARTERS.md
+
+INSTRUCTIONS.md
+
+KNOWLEDGE_GUIDE.md
+```
+
+ChatGPT can review:
+
+- AI architectures
+- Product Requirements Documents (PRDs)
+- Model Cards
+- Procurement packages
+- Policies
+- System documentation
+- Risk assessments
+- system.yaml files
+
+Example prompt:
+
+```text
+Perform a Rights by Design review of this AI system.
+```
+
+---
+
+# Claude Integration
+
+Claude resources are located in:
+
+```text
+integrations/claude/
+```
+
+### Claude Code
+
+```bash
+/plugin marketplace add yadavranjan2023/rights-by-design-skill
+
+/plugin install rights-by-design@rights-by-design-marketplace
+```
+
+### Claude Desktop / Claude Cowork
+
+Add:
+
+```
+https://github.com/yadavranjan2023/rights-by-design-skill
+```
+
+Install
+
+```
+Rights by Design
+```
+
+Then ask Claude to review:
+
+- AI systems
+- architecture documents
+- PRDs
+- model cards
+- procurement packages
+- system.yaml
+
+or invoke
+
+```text
+/rights-by-design
+```
+
+---
+
+# Machine Readable Assessments
+
+Rights by Design supports structured AI assessments.
+
+Template
+
+```text
+templates/system.yaml
+```
+
+Schema
+
+```text
+schemas/system-v1.schema.json
+```
+
+Future releases will include
+
+```bash
+rights-review validate system.yaml
+
+rights-review assess system.yaml
+
+rights-review report system.yaml
+```
+
+---
+
+# Sector Modules
+
+Production sector modules include:
+
+- Biometrics
+- Critical Infrastructure
+- Defense & National Security
+- Education
+- Employment
+- Energy
+- Government
+- Healthcare
+- Insurance
+- Law Enforcement
+- Lending
+- Manufacturing
+- NASA & Space Systems
+- Robotics
+- Smart Cities
+- Telecommunications
+- Transportation
+
+---
+
+# Repository Structure
+
+```text
+FRAMEWORK_SPEC.md
+
+SKILL.md
+
+README.md
+
+ARCHITECTURE.md
+
+CHANGELOG.md
+
+ROADMAP.md
+
+docs/
+
+knowledge/
+
+research/
+
+templates/
+
+examples/
+
+evals/
+
+sector-modules/
+
+schemas/
+
+integrations/
+    chatgpt/
+    claude/
+
+assets/
+```
+
+---
+
+# Industry Examples
+
+Rights by Design includes production examples covering:
+
+- Resume Screening
+- Benefits Eligibility
+- Lending
+- Healthcare
+- Telecommunications
+- Defense
+- NASA
+- Insurance
+- Education
+- Autonomous Vehicles
+- Policing
+- Manufacturing
+- Robotics
+- Smart Cities
+- Biometrics
+- Critical Infrastructure
+- Energy
+- Procurement
+- Vendor Evaluation
+- AI Procurement RFP
+- Model Card Review
+- AI Incident Review
+- Model Update Review
+- Continuous Monitoring
+- Executive Board Review
+
+---
+
+# Roadmap
+
+## Version 1.0
+
+- Framework Specification
+- ChatGPT Integration
+- Claude Integration
+- 17 Sector Modules
+- 25 Industry Examples
+- Templates
+- Research Crosswalks
+- Evaluation Framework
+
+## Version 1.1
+
+- rights-review CLI
+- JSON Schema Validation
+- Automated Evaluation Engine
+- GitHub Action
+- Regression Test Suite
 
 ## Version 2.0
 
-Version 2.0 adds sector overlays for:
+- Interactive Web Application
+- REST API
+- VS Code Extension
+- Enterprise Dashboard
+- Continuous Monitoring Platform
 
-- Telecommunications and communications infrastructure
-- Department of Defense and national-security systems
-- NASA and civil or commercial space systems
-- Mission-critical and critical-infrastructure environments
+---
 
-The five universal dimensions remain:
+# Contributing
 
-1. Privacy and cognitive liberty
-2. Due process and algorithmic dignity
-3. Equal protection and nondiscrimination
-4. Transparency and contestability
-5. Accountability and democratic control
+Contributions are welcome.
 
-## Use in any AI assistant
+Areas include:
 
-1. Open `SKILL.md`.
-2. Copy the complete file.
-3. Paste it into a new conversation as the governing instructions.
-4. Provide a system description, PRD, model card, procurement package, operational concept, architecture, or mission profile.
-5. Ask: `Run a Rights by Design review.`
+- Sector modules
+- Industry examples
+- Evaluation cases
+- Research
+- Templates
+- Tooling
+- Documentation
 
-## Use in ChatGPT
+Please see
 
-For a reusable custom GPT:
+```
+CONTRIBUTING.md
+```
 
-1. Create a custom GPT.
-2. Paste `chatgpt/INSTRUCTIONS.md` into the GPT Instructions field.
-3. Upload `SKILL.md` and the files in `sector-modules/` as Knowledge.
-4. Add representative evaluation cases from `evals/`.
-5. Enable web access when current laws, standards, agency policies, or regulations must be verified.
-6. Test in Preview before sharing.
+---
 
-Suggested conversation starters:
+# Citation
 
-- Review this AI system using Rights by Design.
-- Turn this product concept into testable rights and safety requirements.
-- Assess this telecom AI system and identify deployment blockers.
-- Review this defense AI concept for command, accountability, and civilian-risk gaps.
-- Review this space-system autonomy design for safety and mission-assurance gaps.
-- Compare these two vendors using Rights by Design.
+If you use Rights by Design in research, publications, or implementations, please cite:
 
-## Repository structure
+> Rani Yadav-Ranjan. *Constitutional Democracy in the Algorithmic Age.* Springer Nature, 2026.
 
-Repository structure
-rights-by-design-skill/
-├── README.md
-├── SKILL.md
-├── chatgpt/
-│   ├── INSTRUCTIONS.md
-│   ├── CONFIGURATION.md
-│   ├── CONVERSATION_STARTERS.md
-│   └── KNOWLEDGE_GUIDE.md
-├── knowledge/
-│   ├── methodology.md
-│   ├── glossary.md
-│   ├── worked-examples.md
-│   └── sector-modules/
-│       ├── employment.md
-│       ├── lending.md
-│       ├── healthcare.md
-│       └── government.md
-├── sector-modules/
-│   ├── telecommunications.md
-│   ├── defense-national-security.md
-│   └── nasa-space-systems.md
-├── evals/
-│   ├── test-cases.md
-│   ├── expected-findings.md
-│   ├── regression-checklist.md
-│   └── sector-test-cases.md
-└── examples/
-    ├── resume-screening-review.md
-    ├── lending-review.md
-    └── benefits-eligibility-review.md
+Citation metadata is available in:
 
-## Limits
+```
+CITATION.cff
+```
 
-Rights by Design is a design and governance aid. It does not provide legal advice or certify compliance. It is not a substitute for agency, command, legal, privacy, cybersecurity, safety, engineering, acquisition, accessibility, civil-rights, weapons, airworthiness, flight-readiness, or mission-assurance review.
+---
 
-Run it now (free): github.com/yadavranjan2023/rights-by-design-skill
+# License
 
-Rights by Design is the practical front end of my book, Constitutional Democracy in the Algorithmic Age: A Practical Framework for Preserving Citizen Rights (Springer, 2026), where the full framework and the law under it live. Pre-order: link.springer.com/book/9783032346032
+See
+
+```
+LICENSE
+```
+
+---
+
+# Disclaimer
+
+Rights by Design is an engineering and governance framework intended to support the design, evaluation, deployment, and oversight of AI systems.
+
+It is **not legal advice**, does **not certify compliance** with any law, regulation, or standard, and should be used alongside applicable legal, technical, safety, and organizational requirements.
+
+---
+
+## Vision
+
+Our mission is to make constitutional principles, democratic accountability, and human rights **operational** within AI systems through open, transparent, evidence-based engineering practices.
+
+**Build AI worthy of public trust.**
